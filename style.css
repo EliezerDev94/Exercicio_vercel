@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+.bg {
+    background-image: url("Logo-mw3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body > header .container {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.836);
+    justify-content: space-around;
+    padding: 32px;
+}
+
+header li {
+    display:inline;
+}
+
+header li a {
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container {
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .container {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 1280px;
+    color: white;
+    margin: 32px auto;
+    display:inline;
+    justify-content: center;
+}
+
+section h2 {
+    background-color: rgba(0, 0, 0, 0.178);
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    margin: 32px;
+}
+
+section h3 {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+    font-size: 32px;
+    justify-content:right;
+    margin: 15px;
+}
+
+.container-video {
+    justify-content:center ;
+    display: flex;
+}
+
+.novidades-div {
+    justify-content: center;
+    display: flex;
+}
+
+.novidades-div img {
+    /* height: 180px; */
+    width: 60%;
+}
+
+.container-video iframe {
+    margin-bottom: 32px;
+}
+
+.novidades-div article {
+    display: block;
+    justify-content: center ;
+    margin: 30px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: #3b0f0f;
+    color: #ecf0f1;
+    border: none ;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3b0f0f;;
+}
+
+input:focus, textarea:focus {
+    outline-color: #3b0f0f;
+}
+
+footer {
+    color: white;
+    background-color: #3b0f0f;
+}
+
+.novidades-div {
+    background-color: rgba(0, 0, 0, 0.836);
+}
